@@ -116,7 +116,8 @@ const data = {
         title:"Portfolio",
         techno:["NextJS","TypeScript","Tailwind"],
         description:"My actual porfolio made with NextJs and Typescript",
-        code:"https://github.com/Evolved-beep/porfolio"
+        code:"https://github.com/Evolved-beep/porfolio",
+        prod:"https://porfolio-theta-fawn.vercel.app/"
     }],
 
     socials:[{
