@@ -10,10 +10,10 @@ export default function Home() {
             <TypeWritter />
             <div className="flex justify-center items-center">
                 <Link href="/project">
-                    <Button text={"View my project"} className=" bg-[#ff5733] border-none mr-2"/>
+                    <Button text={"View my project"} className=" bg-[#ff5733] hover:bg-[#e5533d] transition-colors border-none mr-2"/>
                 </Link>
                 <Link href="/contact">
-                    <Button text={"Contact me"} className="bg-transparant border-[1px] border-[#ff5733] "/>
+                    <Button text={"Contact me"} className="bg-transparent border-[1px] border-[#ff5733] hover:shadow-[0_0_15px_rgba(255,87,51,0.5)] hover:border-[#ff6b4a] "/>
                 </Link>
             </div>
         </section>

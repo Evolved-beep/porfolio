@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<ButtonProps> = ({text, className, ...props}) => {
     return(
         <button 
-            className={`py-2 px-4 cursor-pointer text-[#eeeeee] rounded-md ${className}`}
+            className={`py-2 px-4 cursor-pointer text-[#eeeeee] rounded-md transition-all duration-300 hover:shadow-lg active:scale-95 ${className}`}
             {...props}
         >
             {text}

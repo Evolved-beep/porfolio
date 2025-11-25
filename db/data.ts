@@ -122,13 +122,16 @@ const data = {
 
     socials:[{
         social:"Linkdin",
-        name:'Maxime Magnier'
+        name:'Maxime Magnier',
+        link:"https://www.linkedin.com/in/maxime-magnier-760a15157/"
     },{
         social:"GitHub", 
-        name:'Evolved-Beep'
+        name:'Evolved-Beep',
+        link:"https://github.com/Evolved-Beep"
     },{
         social:"Mail",
-        name:"maxime.magnier@outlook.com"
+        name:"maxime.magnier@outlook.com",
+        link:"mailto:maxime.magnier@outlook.com"
     }],
 
    about:[
