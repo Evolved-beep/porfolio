@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navbar-top : #1f2428;
+  --text-color: #efefef;
+  --main-bg: #24292e;
+  --bg-text:rgba(56,58,61,.35);
+  --sidebar-bg: #24292e;
+  --sidebar-hover-bg:#1f2428;
+  --tabs-bg:#1f2428;
+  --tabs-text:#ececec;
+  --tabs-active-text:#569cd6;
+  --tabs-border:#444444;
+  --active-border : #ff5733;
+  --skills-border: hsla(0, 0%, 100%, .1);
+  --skills-color:#fff;
+
+}
+
+body {
+  color: var(--text-color);
+  background: var(--main-bg);
+  font-family: "Source Sans 3";
+}
+
+.full_rounded_yellow {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #f1fa8c;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.full_rounded_green {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #50fa7b;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.full_rounded_red {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: #f55;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.title {
+  font-family: "JetBrains Mono";
+  font-size: 32px; 
+  color: #eeeeee;
+  margin-bottom: 4px;
+}
+
+.text_letter {
+  font-family: 'JetBrains Mono';
+  font-size: 24px;
+  color: #eeeeee;
+  text-align: center;
+  margin: 12px 0 32px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
