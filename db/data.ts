@@ -103,7 +103,8 @@ const data = {
         title:"T1 Hub",
         techno:["NextJS","TypeScript","Tailwind","Charts"],
         description:"Esports analytics dashboard for T1's League of Legends competitive performance",
-        code:"https://github.com/Evolved-beep/t1-hub",
+        code:"https://github.com/Evolved-beep/T1Hub",
+        prod:"https://t1-hub.vercel.app/"
     },
     {
         title:"RiftGG",
